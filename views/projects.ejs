@@ -1,0 +1,86 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<!-- Main Content -->
+<main>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Welcome to the <%= title %> page</h1>
+            <p class="lead">Networking & IT Security Student</p>
+            <p>This page is a showcase of the assignments and projects I’ve worked on during my academic journey. Each
+                project reflects my growing knowledge and skills in Networking, IT Security, and programming. Below,
+                you'll find images representing some of the programming languages I’m proficient in, each playing a
+                crucial role in bringing these projects to life.
+            </p>
+
+            <!-- Logos section -->
+            <div class="cells d-flex flex-wrap justify-content-center">
+                <div class="cell text-center m-2">
+                    <img src="assets/images/html-logo.webp" alt="HTML Logo" class="img-fluid">
+                    <span>HTML</span>
+                </div>
+                <div class="cell text-center m-2">
+                    <img src="assets/images/css-logo.webp" alt="CSS Logo" class="img-fluid">
+                    <span>CSS</span>
+                </div>
+                <div class="cell text-center m-2">
+                    <img src="assets/images/Java_programming_language_logo.svg.png" alt="Java Logo" class="img-fluid">
+                    <span>Java</span>
+                </div>
+                <div class="cell text-center m-2">
+                    <img src="assets/images/python.svg" alt="Python Logo" class="img-fluid">
+                    <span>Python</span>
+                </div>
+                <div class="cell text-center m-2">
+                    <img src="assets/images/javascript-logo.webp" alt="JavaScript Logo" class="img-fluid">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Projects section -->
+            <div class="projects-section mt-4">
+                <h2>Student Grade Management System</h2>
+                <ul>
+                    <li>Developed a console-based application in C for efficient student grade management, encompassing
+                        functionalities such as adding, updating, deleting, and displaying student records and grades.
+                    </li>
+                    <li>Integrated file I/O to ensure persistent data storage, enhancing the longevity and accessibility
+                        of student information.</li>
+                    <li>Implemented robust error-handling mechanisms, underscoring a commitment to reliability and a
+                        seamless user experience in the application.</li>
+                </ul>
+
+                <h2>Tic-Tac-Toe</h2>
+                <ul>
+                    <li>Developed a Java-based two-player Tic-Tac-Toe game with a rudimentary console interface.</li>
+                    <li>Implemented core game logic, user input validation, and robust win/draw condition verification
+                        using object-oriented programming principles in Java.</li>
+                    <li>Demonstrated proficiency in Java and employed effective error-handling methodologies for a
+                        seamless user experience, adhering to best practices in software development.</li>
+                </ul>
+
+                <!-- Inventory Management System and Resume-->
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2>Inventory Management System</h2>
+                        <ul>
+                            <li>Conceptualized and delivered a comprehensive inventory management system in C, optimizing stock
+                                tracking and control.</li>
+                            <li>Implemented pivotal features including item addition, updates, deletions, and report generation on
+                                stock levels and transaction history.</li>
+                            <li>Applied advanced data structures and algorithms for enhanced search and retrieval operations.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-start justify-content-center">
+                        <a href="assets/images/Obad's Resume 2024_2025.docx.pdf" class="btn btn-primary" target="_blank">
+                            <i class="fa-solid fa-file"></i> Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>

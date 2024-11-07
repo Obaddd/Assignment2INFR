@@ -3,11 +3,20 @@
 <!-- Main Content -->
 <main>
     <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Welcome to the <%= title %> page</h1>
-        <p class="lead">Networking & IT Security Student</p>
+        <div class="container">
+            <h1 class="display-4">Welcome to the <%= title %> page</h1>
+            <p class="lead">Networking & IT Security Student</p>
+            <p> Welcome! The video below is a short introduction where I talk about my background, passions,
+                and the work I'm involved in. Whether you're here to connect, collaborate, or learn more, I
+                hope this gives you a glimpse into who I am. Enjoy! </p>
+            <div class="video-container">
+                <video controls poster="assets/images/posterpicture.jpg">
+                    <source src="assets/videos/aboutmevideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
     </div>
-</div>
 </main>
 <%- include partials/bottom_nav.ejs %>
 <%- include partials/footer.ejs %>
